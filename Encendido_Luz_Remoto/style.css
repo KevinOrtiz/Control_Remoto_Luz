@@ -1,0 +1,68 @@
+body {
+	font-family: Cambria;
+}
+
+#relay {
+  text-align: center;
+}
+
+.commandButton {
+  background-color: orange;
+  border:1px solid black;
+  font-style: italic;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 55px;
+  width: 300px;
+  height: 100px;
+}
+
+.commandButton:hover {
+  background-color: red;
+  color: white;
+  font-style: italic;
+  border:1px solid black;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 55px;
+  width: 300px;
+  height: 100px;
+}
+
+  
+  #on{
+    margin-bottom : 60px;
+
+  }
+
+  #off{
+    margin-bottom: 57px;
+  }
+
+@media screen and (max-device-width: 400px){
+  h1{
+    text-align: center;
+  }
+
+  .commandButton {
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    background-color: orange;
+
+  }
+  #on{
+    margin-bottom:  60px;
+
+  }
+
+  #off{
+    margin-bottom: 75px;
+  }
+
+
+}
